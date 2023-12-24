@@ -14,11 +14,8 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-    // Get the roll number from the query parameter in the URL
     const urlParams = new URLSearchParams(window.location.search);
     const rollNumber = urlParams.get('rollNumber');
-
-    // Display the roll number on the success page
     document.getElementById('rollNumber').innerText = rollNumber;
 });
     </script>
